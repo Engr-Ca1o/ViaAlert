@@ -14,7 +14,7 @@ BAUD_RATE = 9600
 OFFLINE_STORAGE = './offline_data'
 
 # MongoDB Configuration
-cluster = MongoClient("mongodb+srv://ben10promax:ben10promax@ben10promax.giwzamd.mongodb.net/?retryWrites=true&w=majority&appName=ben10promax")
+cluster = MongoClient(".")
 db = cluster["violations"]
 coll = db["datas"]
 
